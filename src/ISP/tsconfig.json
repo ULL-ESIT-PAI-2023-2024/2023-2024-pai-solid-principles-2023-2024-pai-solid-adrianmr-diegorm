@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "noImplicitAny": true,                    /* will issue an error whenever it would have inferred any:*/ 
+    "forceConsistentCasingInFileNames": true
+  },
+  "files": ["character_bad.ts", "vehicle_bad.ts"],
+  "exclude": [
+        "node_modules",
+        "build",
+        "lib",
+        "test",
+        "public"
+  ],
+  "include": ["character_bad.ts", "vehicle_bad.ts"]
+}
