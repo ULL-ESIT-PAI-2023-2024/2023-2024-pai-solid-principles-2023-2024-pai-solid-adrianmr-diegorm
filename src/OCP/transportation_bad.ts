@@ -24,9 +24,11 @@ class Transportation {
    */
   calculatePrice(): number {
 	if (this.transporter == 'Truck') {
-  	  return (500 * this.volume);  
+      let TRUCK_PRICE = 500;
+  	  return (TRUCK_PRICE * this.volume);  
 	} else if (this.transporter == 'Ship') {
-  	  return (300 * this.volume);
+      let SHIP_PRICE = 300;
+  	  return (SHIP_PRICE * this.volume);
 	}
 	return 0;
   }

@@ -30,7 +30,8 @@ class Ship implements Transporter {
    * @returns The price of the transportation
    */
   calculatePrice() {
-	return 300;
+    let SHIP_PRICE = 300;
+	  return SHIP_PRICE;
   }
 }
 
@@ -48,7 +49,8 @@ class Truck implements Transporter {
    * @returns The price of the transportation
    */
   calculatePrice() {
-    return 500;
+    let TRUCK_PRICE = 500;
+    return TRUCK_PRICE;
   }
 }
 
@@ -66,7 +68,8 @@ class Plane implements Transporter {
    * @returns The price of the transportation
    */
   calculatePrice() {
-    return 1000;
+    let PLANE_PRICE = 1000;
+    return PLANE_PRICE;
   }
 }
 
